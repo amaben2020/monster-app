@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+
+import Monsters from "./../components/Monsters";
 
 const App = () => {
-	return <div>AAMALALCggHUKWU</div>;
+	const [search, setMonster] = useState("");
+
+	return (
+		<div>
+			<Monsters />
+		</div>
+	);
 };
 
 export default App;
